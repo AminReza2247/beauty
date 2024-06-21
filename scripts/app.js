@@ -3,18 +3,18 @@ let $ = document
 let [langFlag , curFlag , startCounter] = [false,false,false]
 
 let products_1 = [
-    {id:1 ,title: 'محصول شماره 1' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:893_000,newPrice:721_000 , off: '10%', src:'../images/product-1.jpg' },
-    {id:2 ,title: 'محصول شماره 2' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:969_000,newPrice:756_000 , off: '12%', src:'../images/product-2.jpg' },
-    {id:3 ,title: 'محصول شماره 3' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:979_000,newPrice:734_000 , off: '16%', src:'../images/product-3.jpg' },
-    {id:4 ,title: 'محصول شماره 4' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:969_000,newPrice:720_000 , off: '8%', src:'../images/product-4.jpg' },
-    {id:5 ,title: 'محصول شماره 5' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:569_000,newPrice:453_000 , off: '20%', src:'../images/product-5.jpg' },
-    {id:6 ,title: 'محصول شماره 6' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:599_000,newPrice:569_000 , off: '12%', src:'../images/product-6.jpg' },
-    {id:7 ,title: 'محصول شماره 7' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:999_000,newPrice:965_000 , off: '10%', src:'../images/product-7.jpg' },
-    {id:8 ,title: 'محصول شماره 8' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:899_000,newPrice:699_000 , off: '16%', src:'../images/product-8.jpg' },
-    {id:9 ,title: 'محصول شماره 9' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:569_000,newPrice:332_000 , off: '18%', src:'../images/product-9.jpg' },
-    {id:10,title: 'محصول شماره 10' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ', lastPrice:569_000,newPrice:369_000 , off: '5%', src:'../images/product-5.jpg' },
-    {id:11,title: 'محصول شماره 11' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:889_000,newPrice:721_000 , off: '20%', src:'../images/product-2.jpg' },
-    {id:12,title: 'محصول شماره 12' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:929_000,newPrice:789_000 , off: '10%', src:'../images/product-1.jpg' },
+    {id:1 ,title: 'محصول شماره 1' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:893_000,newPrice:721_000 , off: '10%', src:'images/product-1.jpg' },
+    {id:2 ,title: 'محصول شماره 2' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:969_000,newPrice:756_000 , off: '12%', src:'images/product-2.jpg' },
+    {id:3 ,title: 'محصول شماره 3' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:979_000,newPrice:734_000 , off: '16%', src:'images/product-3.jpg' },
+    {id:4 ,title: 'محصول شماره 4' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:969_000,newPrice:720_000 , off: '8%', src:'images/product-4.jpg' },
+    {id:5 ,title: 'محصول شماره 5' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:569_000,newPrice:453_000 , off: '20%', src:'images/product-5.jpg' },
+    {id:6 ,title: 'محصول شماره 6' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:599_000,newPrice:569_000 , off: '12%', src:'images/product-6.jpg' },
+    {id:7 ,title: 'محصول شماره 7' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:999_000,newPrice:965_000 , off: '10%', src:'images/product-7.jpg' },
+    {id:8 ,title: 'محصول شماره 8' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:899_000,newPrice:699_000 , off: '16%', src:'images/product-8.jpg' },
+    {id:9 ,title: 'محصول شماره 9' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:569_000,newPrice:332_000 , off: '18%', src:'images/product-9.jpg' },
+    {id:10,title: 'محصول شماره 10' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ', lastPrice:569_000,newPrice:369_000 , off: '5%', src:'images/product-5.jpg' },
+    {id:11,title: 'محصول شماره 11' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:889_000,newPrice:721_000 , off: '20%', src:'images/product-2.jpg' },
+    {id:12,title: 'محصول شماره 12' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:929_000,newPrice:789_000 , off: '10%', src:'images/product-1.jpg' },
 ]
 
 let basketArray = []
