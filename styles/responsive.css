@@ -1,0 +1,190 @@
+@media screen and (max-width:1400px) {
+    .bestselling__menu{
+        display: none;
+    }
+    .products-off__topcontent-text{
+        font-size: 3.2rem;
+    }
+}
+@media screen and (max-width:1200px) {
+    .search{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .menu-items{
+        display: none;
+    }
+    .pictures-content__right{
+        padding: 3rem;
+    }
+    .pictures-content__right-title1,.pictures-content__right-title2{
+        margin-right: 0;
+        font-size: 3.2rem;
+    }
+    .pictures-content__right-description{
+        width: 25rem;
+    }
+    .pictures-content__right-offtext{
+        margin-left: 0;
+    }
+    .pictures-content__left-bottom,.pictures-content__left-top{
+        padding: 1rem 1rem;
+    }
+    .pictures-content__left-bottom-description,.pictures-content__left-top-description{
+        width: 20rem;
+    }
+    .nav-menu-icon-wrapper{
+        display: flex;
+    }
+    .products-off__topcontent-text{
+        font-size: 2.7rem;
+    }
+    .products-off__leftcontent-caption,.products-off__rightcontent-caption{
+        font-size: 1.3rem;
+    }
+    .products-off__leftcontent-caption{
+        width: 20rem;
+    }
+    .topcontent__item{
+        border-left: none;
+    }
+}
+@media screen and (max-width:992px) {
+    .pictures-content__right{
+        margin-right: 0;
+    }
+    .pictures-content__left{
+        height: auto;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .bestselling__text{
+        display: none;
+    }
+    .products-off__topcontent-text{
+        width: 30rem;
+    }
+    .products-off__leftcontent-caption,.products-off__rightcontent-caption{
+        font-size: 1.6rem;
+    }
+    .products-off__leftcontent-caption{
+        width: 28rem;
+    }
+    .article__title{
+        font-size: 2.5rem;
+    }
+    .article__caption{
+        font-size: 1.4rem;
+    }
+    .newsletter-wrapper{
+        width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .advertisement{
+        display: none;
+    }
+    .search__wrapper{
+        width: 50rem;
+    }
+    .pictures-content__left{
+        flex-direction: column;
+    }
+    .offer-wrapper{
+        left: 4rem;
+    }
+    .section-title::after , .section-title::before{
+        display: none;
+    }
+    .products-off__topcontent-text,.products-off__topcontent-code{
+        margin-right: 3rem;
+    }
+    .newsletter__left-content{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:567px) {
+    .search__wrapper{
+        flex-direction: column;
+        width: 30rem;
+        gap: 1rem;
+    }
+    .address-tab{
+        width: 30rem;
+    }
+    .pictures-content__right-description{
+        width: 12rem;
+    }
+    .newsletter__input{
+        font-size: 1.3rem;
+    }
+    .location__address , .leftside-wrapper{
+        font-size: 1.3rem;
+    }
+    .sign-in-tab{
+        width: 33rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .popular-btn,.menu-btn{
+        padding: 0 1rem;
+        font-size: 1.2rem;
+    }
+    .pictures-content__right-title1, .pictures-content__right-title2{
+        font-size: 2rem;
+    }
+    .pictures-content__right-off{
+        flex-direction: column;
+        margin-left: 15rem;
+    }
+    .pictures-content__left-top-title, .pictures-content__left-bottom-title{
+        font-size: 2rem;
+    }
+    .countdown{
+        font-size: 1.5rem;
+        padding: 0.5rem 2rem;
+    }
+    .section-title{
+        font-size: 2rem;
+    }
+    .products-off__topcontent-text{
+        font-size: 1.8rem;
+    }
+    .products-off__topcontent-code {
+        font-size: 1.2rem;
+    }
+    .products-off__rightcontent-caption , .products-off__leftcontent-caption{
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+    .contact-us__email-address, .contact-us__phone-number {
+        margin-right: 0rem;
+    }
+    .newsletter__title{
+        font-size: 2.2rem;
+    }
+    .newsletter__caption{
+        font-size: 1.3rem;
+    }
+    .newsletter__input-wrapper{
+        flex-direction: column;
+    }
+    .newsletter__icon{
+        display: none;
+    }
+    .newsletter__input{
+        width: 100%;
+        text-align: center;
+    }
+    .newsletter__btn{
+        width: 100%;
+    }
+    .pictures-content__right-description{
+        color: transparent;
+    }
+    .shopping-cart{
+        width: 30rem;
+    }
+}

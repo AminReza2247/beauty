@@ -1,0 +1,35 @@
+@font-face {
+    font-family:"Negar";
+    src: url(../fonts/negar/ANegaar.ttf)format("truetype");
+}
+@font-face {
+    font-family:"NegarBold";
+    src: url(../fonts/negar/ANegaarBold.ttf)format("truetype");
+}
+
+@font-face {
+    font-family: "Vazir";
+    src: url(../fonts/vazir/Vazir.ttf)format("truetype");
+}
+@font-face {
+    font-family: "VazirBlack";
+    src: url(../fonts/vazir/Vazir-Black.ttf)format("truetype");
+}
+@font-face {
+    font-family: "VazirLight";
+    src: url(../fonts/vazir/Vazir-Light.ttf)format("truetype");
+}
+@font-face {
+    font-family: "VazirMedium";
+    src: url(../fonts/vazir/Vazir-Medium.ttf)format("truetype");
+}
+@font-face {
+    font-family: "VazirRegular";
+    src: url(../fonts/vazir/Vazir-Regular.ttf)format("truetype");
+}
+@font-face {
+    font-family: "VazirThin";
+    src: url(../fonts/vazir/Vazir-Thin.ttf)format("truetype");
+}
+
+
