@@ -15,7 +15,7 @@ let products_1 = [
     {id:10,title: 'محصول شماره 10' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ', lastPrice:569_000,newPrice:369_000 , off: '5%', src:'images/product-5.jpg' },
     {id:11,title: 'محصول شماره 11' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:889_000,newPrice:721_000 , off: '20%', src:'images/product-2.jpg' },
     {id:12,title: 'محصول شماره 12' ,name : 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ' , lastPrice:929_000,newPrice:789_000 , off: '10%', src:'images/product-1.jpg' },
-]
+];
 
 let basketArray = []
 
