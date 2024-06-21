@@ -981,7 +981,7 @@ Shopping Cart Tab
 }
 
 .pictures-content__right{
-    background-image: url(/images/headerpic-1.jpg);
+    background-image: url(../images/headerpic-1.jpg);
     background-repeat: repeat;
     background-size: cover;overflow: hidden;
     margin-right: 5.5rem;
@@ -1040,7 +1040,7 @@ Shopping Cart Tab
 .pictures-content__left-top , .pictures-content__left-bottom{
     width: 100%;
     height: 24.5rem;
-    background-image: url(/images/headerpic-2.jpg);
+    background-image: url(../images/headerpic-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 2rem;
@@ -1071,7 +1071,7 @@ Shopping Cart Tab
 
 }
 .pictures-content__left-bottom{
-    background-image: url(/images/headerpic-3.jpg);
+    background-image: url(../images/headerpic-3.jpg);
 }
 
 .pictures-content__left-bottom-text{
