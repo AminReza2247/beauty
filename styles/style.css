@@ -981,7 +981,7 @@ Shopping Cart Tab
 }
 
 .pictures-content__right{
-    background-image: url(images/headerpic-1.jpg);
+    background-image: url(../images/headerpic-1.jpg);
     background-repeat: repeat;
     background-size: cover;overflow: hidden;
     margin-right: 5.5rem;
