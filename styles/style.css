@@ -1502,7 +1502,7 @@ Products Off
 
 .products-off__topcontent{
     width: 100%;
-    background: url(/images/headerpic-1.jpg);
+    background: url(../images/headerpic-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1526,12 +1526,12 @@ Products Off
 }
 
 .products-off__rightcontent{
-    background: url(/images/off-bg-1.jpg);
+    background: url(../images/off-bg-1.jpg);
     background-position: bottom;
     
 }
 .products-off__leftcontent{
-    background:url(/images/off-bg-2.jpg);
+    background:url(../images/off-bg-2.jpg);
     background-position: left;
 }
 
